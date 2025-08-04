@@ -7,4 +7,4 @@ function multiplicar(a, b) {
     return a * b;
 }
 
-module.exports = {soma, multiplicar};
+module.exports = { soma, multiplicar };
