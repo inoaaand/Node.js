@@ -7,5 +7,8 @@ export function obterInfoSistema() {
         arquitetura: os.arch(),
         homeDir: os.homedir(),
         tempoAtivo: os.uptime(),
+        qntCPU: os.cpus(),
+        qntMemoria: os.totalmem(),
+        usuarioAtual: os.hostname(),
     };
 }
