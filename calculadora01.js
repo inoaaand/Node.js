@@ -1,9 +1,9 @@
 function subtrair(a, b) {
-    return b - a;
+    return a - b;
 }
 
 function dividir(a, b) {
-    return b / a;
+    return a / b;
 }
 
-module.exports = { subtrair, dividir};
+module.exports = { subtrair, dividir };
