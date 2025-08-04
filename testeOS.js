@@ -6,5 +6,6 @@ export function obterInfoSistema() {
         plataforma: os.platform(),
         arquitetura: os.arch(),
         homeDir: os.homedir(),
+        tempoAtivo: os.uptime(),
     };
 }
