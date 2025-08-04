@@ -2,7 +2,6 @@
 const calc = require('./calculadora');
 const calc1 = require('./calculadora01');
 
-
 console.log("Soma: ", calc.soma(2, 2));
 
 console.log("Multiplicação: ", calc.multiplicar(2, 6));
