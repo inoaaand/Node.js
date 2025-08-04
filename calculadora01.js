@@ -6,4 +6,4 @@ function dividir(a, b) {
     return b / a;
 }
 
-module.exports = { subtrair, dividir };
+module.exports = { subtrair, dividir};
