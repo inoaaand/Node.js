@@ -28,7 +28,7 @@ const sampleDados = [
         nome: "Adalberto",
         idade: "58",
         profissao: "Truqueiro"
-    }
-];
+    },
+    ];
 
 export default sampleDados;

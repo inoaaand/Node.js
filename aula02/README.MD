@@ -17,3 +17,8 @@ npm i --save -dev nodemon
 ```
 npm run dev
 ```
+- instalar CORS:
+
+```
+npm install cors
+```
