@@ -13,3 +13,7 @@ npm i express
 ```
 npm i --save -dev nodemon
 ```
+- executar projeto:
+```
+npm run dev
+```
