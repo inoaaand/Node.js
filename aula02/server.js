@@ -12,5 +12,5 @@ App.use(express.json());
 App.use('/', dataRoutes);
 
 App.listen(PORT, () => {
-    console.log("Servidor executando em locasHost:3000");
+    console.log("Servidor executando em localhost:3000");
 });

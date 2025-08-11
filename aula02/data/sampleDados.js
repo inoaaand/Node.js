@@ -22,6 +22,12 @@ const sampleDados = [
         nome: "Ander",
         idade: "24",
         profissao: "Analista"
+    },
+    {
+        id: 5,
+        nome: "Adalberto",
+        idade: "58",
+        profissao: "Truqueiro"
     }
 ];
 
