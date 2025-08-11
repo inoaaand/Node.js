@@ -5,8 +5,8 @@ async function carregarData() {
 
         const container = document.getElementById("dados");
         container.innerHTML = "";
-
-        data.results.forEach(pessoa => {
+        
+        data.forEach(pessoa => {
             container.innerHTML += `
                 <div class="card">
                     <h2>ID: ${pessoa.id}</h2>

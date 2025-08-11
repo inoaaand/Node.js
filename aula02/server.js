@@ -1,17 +1,19 @@
 import express from "express";
-import dataRoutes from "./routes/route.js"; //data do route renomeado
+import cors from "cors";              // Importa o cors
+import dataRoutes from "./routes/route.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-
-//Middleware para interpretar o JSON
+// Middleware para interpretar JSON
 app.use(express.json());
 
-//Rota da API
+// Middleware CORS (libera todas as origens)
+app.use(cors());
+
+// Rota da API
 app.use('/', dataRoutes);
 
 app.listen(PORT, () => {
-    console.log("Servidor executando em localhost:3000");
+    console.log(`Servidor executando em localhost:${PORT}`);
 });
-
