@@ -8,7 +8,7 @@ async function carregarData() {
         
         data.forEach(pessoa => {
             container.innerHTML += `
-                <div class="card">
+                <div class="card-container">
                     <h2>ID: ${pessoa.id}</h2>
                     <p><strong>Nome:</strong> ${pessoa.nome}</p>
                     <p><strong>Idade:</strong> ${pessoa.idade}</p>
